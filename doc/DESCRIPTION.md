@@ -1,8 +1,8 @@
-VERT is a file conversion utility that uses WebAssembly to convert files on your device instead of a cloud.
+A self-hosted online file converter. Supports over a thousand different formats. Written with TypeScript, Bun and Elysia.
 
 ### Features
 
-- Convert files directly on your device using WebAssembly *
-- No file size limits
-- Supports multiple file formats
-- User-friendly interface built with Svelte
+- Convert files to different formats
+- Process multiple files at once
+- Password protection
+- Multiple accounts

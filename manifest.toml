@@ -2,20 +2,18 @@
 
 packaging_format = 2
 
-id = "vert"
-name = "Vert"
+id = "convertx"
+name = "ConvertX"
 description.en = "File conversion utility"
 description.fr = "Utilitaire de conversion de fichiers"
 
-version = "1.0~ynh1"
+version = "0.12.1~ynh1"
 
 maintainers = ["eric_G"]
 
 [upstream]
 license = "AGPL-3.0"
-website = "https://vert.sh/"
-demo = "https://vert.sh/"
-code = "https://github.com/VERT-sh/VERT"
+code = "https://github.com/C4illin/ConvertX"
 
 [integration]
 yunohost = ">= 12.0.9"
@@ -44,10 +42,9 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/VERT-sh/VERT/archive/2c8cb1922cf6114890226459bc8813b1dd894210.tar.gz"
-    sha256 = "91bc0cb5f9ca81248abd2982b42d095ebdd82814eb7f64cd318621aefbccefdd"
-    autoupdate.upstream = "https://github.com/VERT-sh/VERT"
-    autoupdate.strategy = "latest_github_commit"
+    url = "https://github.com/C4illin/ConvertX/archive/refs/tags/v0.12.1.tar.gz"
+    sha256 = "5154dd87fdb0a9bfc2ed7cd3d8582d9957a3ef14691514813bda20ce080ff05f"
+    #autoupdate.strategy = "latest_github_tags"
 
     [resources.system_user]
 
