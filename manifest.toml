@@ -53,6 +53,9 @@ ram.runtime = "50M"
     [resources.permissions]
     main.url = "/"
 
+    [resources.ports]
+    main.default = 3000
+    
     [resources.apt]
     packages = "ffmpeg"
 
